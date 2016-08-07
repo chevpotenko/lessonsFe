@@ -27,12 +27,16 @@
 	* item3 o
 	
 	o
+	
 	`selected` o
+	
 	o
+	
 	> blockquotes o
+	
 	o
+	
 	[link](https://www.google.com)
-
 
 6. Сохранить эти изменения
 
@@ -47,12 +51,10 @@
 
 	$ vim about.md
 
-
 9. Добавить в конец файла информацию о любимой книге
 
 	i
 	some text
-
 
 10. Сохранить эти изменения
 
