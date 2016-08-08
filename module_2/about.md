@@ -18,23 +18,17 @@
 5. Добавить информацию о себе на английском языке 7-8 предложений, обязательно использовать Заголовок 1 уровня, Заголовок 2 уровня, Список, Выделение, Цытату, Ссылку
 
 	i
-	# header1 o
-	o
-	##header2 o
-	o
-	* item1 o
-	* item2 o
-	* item3 o
+	# header1
 	
-	o
+	##header2
 	
-	`selected` o
+	* item1
+	* item2
+	* item3
 	
-	o
+	`selected`
 	
-	> blockquotes o
-	
-	o
+	> blockquotes
 	
 	[link](https://www.google.com)
 
