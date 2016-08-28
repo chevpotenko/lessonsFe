@@ -44,7 +44,7 @@
 				render();
 				if(!status && valid){
 					status = true;
-					count = setInterval(run, 10);
+					count = setInterval(run, 1000);
 				}
 			},
 			stop: function(){
