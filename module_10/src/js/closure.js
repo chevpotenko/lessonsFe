@@ -29,7 +29,7 @@ $(function(){
 
 /*task #2----------------------------------------*/
 
-	var HelloPage = {
+var HelloPage = {
 	name: 'GoIT',
 	init: function() {
 		console.log('Hello, ' + this.name);
