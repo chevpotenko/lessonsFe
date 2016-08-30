@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<title>Array</title>
+	<link href="css/array.css" type="text/css" rel="stylesheet"/>
+</head>
+<body>
+	<table class="results">
+		<thead>
+			<tr>
+				<th class="data">
+					<span class="btn descending">UP</span>
+					<span class="btn ascending">DOWN</span>
+				</th>
+				<th class="image"></th>
+				<th class="name"></th>
+				<th class="descr">Search:<input type="search" class="search"></th>
+			</tr>
+		</thead>
+		<tbody id="results"></tbody>
+	</table>
+	
+	<script type="text/html" id="item_tmpl">
+		<% for ( var i = 0; i < data.length; i++ ) { %>
+			<tr>
+				<td class="data"><%= data[i].start_date %></td>
+				<td class="image">
+					<% if(data[i].images.small){ %>
+						<img src="<%= data[i].images.small.url %>">
+					<% } %>
+				</td>
+				<td class="name">
+					<a href="<%= data[i].href %>" target="_blank">
+						<%= data[i].name %>
+					</a>
+				</td>
+				<td class="descr"><%= data[i].description %></td>
+			</tr>
+		<% } %>
+	</script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+	<script src="js/template.js"></script>
+	<script src="js/array.js"></script>
+</body>
+</html>

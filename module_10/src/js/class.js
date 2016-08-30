@@ -1,5 +1,4 @@
 function Factory(){
-	var dogAmount
 	var animals = ['cat', 'dog'];
 	this.init = function(type){
 		switch(type){

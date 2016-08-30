@@ -1,0 +1,41 @@
+html{
+	font-size: 14px;
+}
+html, body, table, tr, thead, tbody{
+	box-sizing: border-box;
+	width: 100%;
+	margin: 0;
+}
+tr{
+	display: block;
+	padding: 15px 0;
+	border-bottom: 1px solid black;
+}
+th, td{
+	box-sizing: border-box;
+	display: inline-block;
+	padding: 0;
+	vertical-align: top;
+	word-wrap: break-word;
+	word-break: break-all;
+}
+img{
+	width: 100%;
+	height: auto;
+}
+.data,
+.name{
+	width:15%;
+}
+.image{
+	width: 10%;
+}
+.descr{
+	width: 50%;
+}
+.btn{
+	display: inline-block;
+	width:40%;
+	border: 1px solid blue;
+	cursor: pointer;
+}
