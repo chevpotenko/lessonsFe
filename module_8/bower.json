@@ -1,12 +1,9 @@
 {
   "name": "module_8",
-  "homepage": "https://github.com/chevpotenko/lessonsFe",
-  "authors": [
-    "Oleksiy"
-  ],
-  "description": "",
-  "main": "",
-  "license": "MIT",
+  "description": "test",
+  "main": "gulpfile.js",
+  "license": "ISC",
+  "homepage": "",
   "private": true,
   "ignore": [
     "**/.*",
